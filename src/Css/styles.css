@@ -63,7 +63,7 @@ html {
 }
 .fixed {
     position: fixed;
-    bottom: 2rem;
+    bottom: 5rem;
     right: 0.5rem;
     z-index: 2;
 }
@@ -153,6 +153,7 @@ h1, h2,h3 {
 }
 .font-size{
     font-size: 17px;
+    opacity: 0.7;
 }
 .option {
     opacity: 0.6;

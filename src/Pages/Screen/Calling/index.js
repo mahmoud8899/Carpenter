@@ -28,7 +28,7 @@ export default function TheCalling() {
             </div>
 
 
-            <div className="flex flex-row flex-center align-items margin-topOneee cursor" >
+            <div className="flex flex-row flex-center align-items margin-top cursor" >
                 <span className="TEXT__ background-wahtapp">واتساب</span>
                 <div className='devCling cursor '>
 

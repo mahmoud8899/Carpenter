@@ -40,7 +40,7 @@ export default function Render() {
       <meta name="twitter:image:alt" content=${Najar} />
       <meta name="twitter:site" content='نجار' />
       <meta property='og:type' content='http://localhost:4000/' />
-    <link rel="apple-touch-icon"   href=${Log} />
+      <link rel="icon" href=${Log} />
     <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@900&display=swap" rel="stylesheet">
