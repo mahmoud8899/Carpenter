@@ -1,7 +1,7 @@
 version: '3'
 services:
    node-app:
-    image: mahmoud899/najar:tagname
+    container_name: express-node-app
     build: 
       context: .
       dockerfile: Dockerfile
@@ -10,4 +10,11 @@ services:
     environment:
     - DOCKER_DEFAULT_PLATFORM=linux/amd64
     - PORT=4000
-
+   nginx:
+    image: nginx:stable-alpine
+    ports:
+    - "80:80"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - node-app
