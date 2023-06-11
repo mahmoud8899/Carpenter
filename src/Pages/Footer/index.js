@@ -11,7 +11,31 @@ import MyImage from '../Screen/Images/index'
 export default function TheFooter() {
 
 
-    // 
+
+    const FooterLinke = [
+        {
+            _id: 1,
+            image: facebook,
+            name: 'facebook',
+            link: 'https://www.facebook.com/profile.php?id=100092699676341&mibextid=ZbWKwL',
+        },
+        {
+            _id: 2,
+            image: instagram,
+            name: 'instagram',
+            link: 'https://www.instagram.com/atefsmair1994/',
+            WhatsApp: 'https://wa.me/+966568970473'
+        },
+        {
+            _id: 2,
+            image: whatapp,
+            name: 'whatapp',
+            link: 'https://wa.me/+966568970473',
+        }
+
+    ]
+
+
     return (
         <footer className='flex flex-wrap flex-center margin-topone paddingTo width80 margin backgroundTo style_border'>
 
@@ -33,50 +57,25 @@ export default function TheFooter() {
                 <h2 className='firstClass'>تستطيع متابعة حساباتنا</h2>
 
                 <div className='flex align-items'>
+                    {FooterLinke?.map((item, index) => (
+                        <div className='margin-leftOne  cursor'>
 
-                    <div className='margin-leftOne cursor'>
-                  
-                        <MyImage
-                                image={facebook}
-                                className='border-radius cursor '
-                                alt='facebook'
-                                width='40px'
-                                height='40px'
-                                title="facebook"
+                            <a href={item.link} title='facbook page' target="_blank" key={index} >
+                                <MyImage
+                                    image={item.image}
+                                    className='border-radius cursor '
+                                    alt={item.name}
+                                    width='40px'
+                                    height='40px'
+                                    title="facebook"
 
-                            />
-                    </div>
-                    <div className='cursor'>
-                        <a href="https://wa.me/+966568970473" >
-                        <MyImage
-                                image={whatapp}
-                                className='border-radius cursor '
-                                alt='whatapp'
-                                width='40px'
-                                height='40px'
-                                title="whatapp"
+                                />
+                            </a>
 
-                            />
-                           
-                        </a>
+                        </div>
+                    ))}
 
-                    </div>
 
-                    <div className='margin-right cursor'>
-                        <a href="#" >
-                            <MyImage
-                                image={instagram}
-                                className='border-radius cursor '
-                                alt='instagram'
-                                width='40px'
-                                height='40px'
-                                title="instagram"
-
-                            />
-
-                        </a>
-
-                    </div>
 
 
 
@@ -87,3 +86,36 @@ export default function TheFooter() {
 
     )
 }
+
+// margin-leftOne 
+// <div className='cursor'>
+// <a href={FooterLinke.WhatsApp} target="_blank" title='whatsapp' >
+//     <MyImage
+//         image={whatapp}
+//         className='border-radius cursor '
+//         alt='whatapp'
+//         width='40px'
+//         height='40px'
+//         title="whatapp"
+
+//     />
+
+// </a>
+
+// </div>
+
+// <div className='margin-right cursor'>
+// <a href={FooterLinke.instagram} title='instagram' target="_blank" >
+//     <MyImage
+//         image={instagram}
+//         className='border-radius cursor '
+//         alt='instagram'
+//         width='40px'
+//         height='40px'
+//         title="instagram"
+
+//     />
+
+// </a>
+
+// </div>

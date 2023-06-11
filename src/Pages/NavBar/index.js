@@ -56,16 +56,18 @@ export default function NavBar() {
                         </p>
 
                     </div>
+                    <a href={`tel:+${TelefonNumber.telefon}`} className="Telefon_link" >
 
-                    <MyImage
-                                image={CallIcons}
-                                className='CallImage add'
-                                alt='the calling'
-                                width='40px'
-                                height='40px'
+                        <MyImage
+                            image={CallIcons}
+                            className='CallImage add'
+                            alt='the calling'
+                            width='40px'
+                            height='40px'
 
-                            />
-                  
+                        />
+                    </a>
+
                 </div>
 
                 <div className='width50 Extra flex flex-center '>
@@ -76,14 +78,14 @@ export default function NavBar() {
                         </p>
                     </div>
                     <MyImage
-                                image={MapsIcons}
-                                className='CallImage'
-                                alt='the calling'
-                                width='40px'
-                                height='40px'
+                        image={MapsIcons}
+                        className='CallImage'
+                        alt='the calling'
+                        width='40px'
+                        height='40px'
 
-                            />
-                   
+                    />
+
                 </div>
 
             </div>

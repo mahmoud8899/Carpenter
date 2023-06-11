@@ -31,15 +31,16 @@ export default function Render() {
       <meta property="og:image" content=${Najar}/>
       <meta
         property="og:url"
-        content='http://localhost:4000/' 
+        content='https://www.najarv.com/' 
       />
       <meta name="theme-color" content="#d8bc64" />
-      <meta name="keywords" content="نجار ديكورات-نجار فك وتركيب اثاث-تركيب اثاث غرف النوم-تركيب اثاث ايكيا-نجار أثاث-نجار بالرياض خشب-نجار خشب طاولات-نجار في الرياض-افضل نجار في الرياض" />
+      <meta name="keywords" content="نجار ديكورات,نجار فك وتركيب اثاث,تركيب اثاث غرف النوم,تركيب اثاث ايكيا,نجار أثاث,نجار بالرياض خشب,نجار خشب طاولات, نجار في الرياض,افضل نجار في الرياض" />
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image:alt" content=${Najar} />
       <meta name="twitter:site" content='نجار' />
-      <meta property='og:type' content='http://localhost:4000/' />
+      <meta property='og:type' content='https://www.najarv.com/' />
+      <meta name="google-site-verification" content="nudTrOck7CCX6fQdknp6WZMOE27dUN_w89Dm5zcmhFM" />
       <link rel="icon" href=${Log} />
     <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,7 +49,7 @@ export default function Render() {
     <link rel="canonical" href="/" />
 </head>
 <body>
-    <div id="mahmoud">
+    <div id="Mahmoud-Almadhoun+467098520">
          ${User}
     </div>
     <script src="./client/bundle.js" defer ></script>

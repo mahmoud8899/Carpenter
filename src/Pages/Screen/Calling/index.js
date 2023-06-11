@@ -32,7 +32,7 @@ export default function TheCalling() {
                 <span className="TEXT__ background-wahtapp">واتساب</span>
                 <div className='devCling cursor '>
 
-                    <a href="https://wa.me/+966568970473" className="Telefon_link" >
+                    <a href="https://wa.me/+966568970473" className="Telefon_link" target="_blank" >
                         <MyImage
                             image={WhatApp}
                             width='30px'

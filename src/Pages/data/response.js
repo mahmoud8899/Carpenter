@@ -67,7 +67,7 @@ export const TelefonNumber = {
 export const MyAddress = {
      
     title :  'العنوان',
-    address : 'شارع البحر الاحمر الرياض'
+    address : 'الرياض حي الوادي شارع البحر الاحمر'
 }
 
 export const ServicesTitle = {
