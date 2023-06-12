@@ -17,7 +17,7 @@ export default function Render() {
   <!DOCTYPE html>
 <html lang="ar" class="ar">
 <head>
-<title>نجار الرياض </title>  
+<title>نجار في الرياض</title>  
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">   

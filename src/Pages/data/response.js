@@ -32,7 +32,7 @@ export const ListNavBarTop = [
 // slider home ...
 export const HomeSlider = {
 
-    title: 'نجار الرياض ',
+    title: 'نجار في الرياض',
     des : 'نجار ديكورات غرف نوم وتفصيل حسب الطلب وتفصيل خزائن ودوليب',
     telefon : '0568970473',
    
