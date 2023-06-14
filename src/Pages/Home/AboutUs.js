@@ -9,7 +9,8 @@ export default function TheAboutUs() {
 
     return (
         <div className='flex flex-wrap flex-center margin-topone paddingTo width80 margin backgroundTo style_border'>
-
+            
+            <header>
             <div className='margin-bottom'>
                 <h2 className='text-align'>{AboutUs.title}</h2>
 
@@ -19,6 +20,8 @@ export default function TheAboutUs() {
                     </p>
                 </div>
             </div>
+            </header>
+         
 
 
         </div>

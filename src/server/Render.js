@@ -21,9 +21,6 @@ export default function Render() {
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">   
-<meta name="description" content=" نحن فريق من الحرفيين المهرة والمتخصصين في فن النجارة. نقدم خدمات الأثاث المخصص، تجديد المطابخ والحمامات،وتواصل معنا لتحويل أفكارك إلى واقع ملموس">
-<meta name="og:description" content=" نحن فريق من الحرفيين المهرة والمتخصصين في فن النجارة. نقدم خدمات الأثاث المخصص، تجديد المطابخ والحمامات،وتواصل معنا لتحويل أفكارك إلى واقع ملموس">
-
 <meta property="og:image" content=${Najar}  />
 <meta property="og:image:url"  content=${Najar}  />
 <meta property="twitter:image" content=${Najar}  />
@@ -34,7 +31,11 @@ export default function Render() {
         content='https://www.najarv.com/' 
       />
       <meta name="theme-color" content="#d8bc64" />
-      <meta name="keywords" content="نجار ديكورات,نجار فك وتركيب اثاث,تركيب اثاث غرف النوم,تركيب اثاث ايكيا,نجار أثاث,نجار بالرياض خشب,نجار خشب طاولات, نجار في الرياض,افضل نجار في الرياض" />
+      <meta name="description" content=" نحن فريق من الحرفيين المهرة والمتخصصين في فن النجارة. نقدم خدمات الأثاث المخصص، تجديد المطابخ والحمامات،وتواصل معنا لتحويل أفكارك إلى واقع ملموس">
+      <meta name="og:description" content=" نحن فريق من الحرفيين المهرة والمتخصصين في فن النجارة. نقدم خدمات الأثاث المخصص، تجديد المطابخ والحمامات،وتواصل معنا لتحويل أفكارك إلى واقع ملموس">
+      
+      <meta name="keywords" content="نجار تفصيل غرف نوم، نجار تصنيع أثاث، نجار خشب طاولات، نجار فك وتركيب، نجار تصنيع أبواب، تصميم وتنفيذ غرف نوم، تصنيع أبواب ونوافذ مخصصة">
+
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image:alt" content=${Najar} />

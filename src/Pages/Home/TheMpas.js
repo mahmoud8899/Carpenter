@@ -2,9 +2,9 @@ import React from 'react'
 import GoogleMapReact from 'google-map-react';
 import { MpaStyles } from './Mapstyles'
 import TheMpasOne from '../../Icons/ww.png'
-import { TheMapInf, MyAddress, TelefonNumber } from '../data/response';
+import { TheMapInf, MyAddress, TelefonNumber, TelefonNumber2 } from '../data/response';
 import MyImage from '../Screen/Images/index'
-
+import Calling from '../../Icons/calling.png'
 export default function TheMpas() {
 
     const defaultProps = {
@@ -21,7 +21,7 @@ export default function TheMpas() {
             <div className=''>
                 <MyImage
                     image={TheMpasOne}
-                  
+
                     alt='the map'
                     width='50px'
                     height='50px'
@@ -34,6 +34,26 @@ export default function TheMpas() {
 
         )
     };
+
+
+
+    const ArrayCalling = [
+        {
+            _id: 1,
+            title: TelefonNumber.title,
+            telefon: TelefonNumber.telefon,
+            image: Calling
+
+        },
+        {
+            _id: 2,
+            title: TelefonNumber2.title,
+            telefon: TelefonNumber2.telefon,
+            image: Calling
+
+        },
+
+    ]
 
 
 
@@ -53,15 +73,40 @@ export default function TheMpas() {
                         <p className='font-size '>{MyAddress.address}</p>
                     </div>
 
-                    <h2 className='margin-topOneee'>{TelefonNumber.title}</h2>
-                    <div className='margin-topOneee'>
-                        <p className='font-size '>
-                            <a href={`tel:+${TelefonNumber.telefon}`} className="Telefon_link" >
-                                {TelefonNumber.telefon}
-                            </a>
 
-                        </p>
-                    </div>
+
+                    {ArrayCalling.map((item, index) => (
+                        <div key={index} >
+                            <h2 className='margin-top '>{item.title}</h2>
+
+                            <div className='flex flex-column'>
+
+                                <div className='flex align-items  margin-top cursor option font-size'>
+                                    <a href={`tel:+${item.telefon}`} className="Telefon_link " >
+                                        {item.telefon}
+
+                                    </a>
+
+
+                                    <a href={`tel:+${item.telefon}`} className="Telefon_link margin-right" title='mahmsdfadsf' >
+                                        <MyImage
+                                            image={Calling}
+                                            width='30px'
+                                            height='30px'
+                                            // className='ImageSlider'
+                                            alt={item.telefon}
+                                            title={item.telefon}
+                                        />
+
+
+                                    </a>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    ))}
                 </div>
 
 
