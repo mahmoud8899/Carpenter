@@ -50,13 +50,13 @@ export default function NavBar() {
                             {TelefonNumber.title}
                         </p>
                         <p className='font-size margin-top option cursor'>
-                            <a href={`tel:+${TelefonNumber.telefon}`} className="Telefon_link" >
+                            <a href={`tel:${TelefonNumber.telefon}`} className="Telefon_link" >
                                 {TelefonNumber.telefon}
                             </a>
                         </p>
 
                     </div>
-                    <a href={`tel:+${TelefonNumber.telefon}`} className="Telefon_link" >
+                    <a href={`tel:${TelefonNumber.telefon}`} className="Telefon_link" >
 
                         <MyImage
                             image={CallIcons}

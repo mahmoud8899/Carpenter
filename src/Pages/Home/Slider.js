@@ -23,13 +23,13 @@ export default function FirstSlider() {
                     <div className='flex flex-column'>
                         <h1 className='font-size margin-top '>{HomeSlider.des}</h1>
                         <div className='flex align-items  margin-top cursor option '>
-                            <a href={`tel:+${HomeSlider.telefon}`} className="Telefon_link font-size" >
+                            <a href={`tel:${HomeSlider.telefon}`} className="Telefon_link font-size" >
                                 {HomeSlider.telefon}
 
                             </a>
 
 
-                            <a href={`tel:+${HomeSlider.telefon}`} className="Telefon_link margin-right" title={HomeSlider.title2} >
+                            <a href={`tel:${HomeSlider.telefon}`} className="Telefon_link margin-right" title={HomeSlider.title2} >
                                 <MyImage
                                     image={Calling}
                                     width='30px'

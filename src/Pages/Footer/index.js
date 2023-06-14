@@ -24,7 +24,6 @@ export default function TheFooter() {
             image: instagram,
             name: 'instagram',
             link: 'https://www.instagram.com/atefsmair1994/',
-            WhatsApp: 'https://wa.me/+966568970473'
         },
         {
             _id: 2,
@@ -86,36 +85,3 @@ export default function TheFooter() {
 
     )
 }
-
-// margin-leftOne 
-// <div className='cursor'>
-// <a href={FooterLinke.WhatsApp} target="_blank" title='whatsapp' >
-//     <MyImage
-//         image={whatapp}
-//         className='border-radius cursor '
-//         alt='whatapp'
-//         width='40px'
-//         height='40px'
-//         title="whatapp"
-
-//     />
-
-// </a>
-
-// </div>
-
-// <div className='margin-right cursor'>
-// <a href={FooterLinke.instagram} title='instagram' target="_blank" >
-//     <MyImage
-//         image={instagram}
-//         className='border-radius cursor '
-//         alt='instagram'
-//         width='40px'
-//         height='40px'
-//         title="instagram"
-
-//     />
-
-// </a>
-
-// </div>

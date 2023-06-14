@@ -55,7 +55,7 @@ export default function Services() {
 
                                                 <TheButton
                                                     TheName={item.TitleButtom}
-                                                    LinkCall={`tel:+${TelefonNumber.telefon}`}
+                                                    LinkCall={`tel:${TelefonNumber.telefon}`}
 
                                                 />
 

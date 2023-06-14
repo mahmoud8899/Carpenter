@@ -47,7 +47,7 @@ export default function Render() {
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
-    <link rel="canonical" href="/" />
+    <link rel="canonical" href="https://www.najarv.com/" />
 </head>
 <body>
     <div id="Mahmoud-Almadhoun+467098520">

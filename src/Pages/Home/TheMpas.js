@@ -82,13 +82,13 @@ export default function TheMpas() {
                             <div className='flex flex-column'>
 
                                 <div className='flex align-items  margin-top cursor option font-size'>
-                                    <a href={`tel:+${item.telefon}`} className="Telefon_link " >
+                                    <a href={`tel:${item.telefon}`} className="Telefon_link " >
                                         {item.telefon}
 
                                     </a>
 
 
-                                    <a href={`tel:+${item.telefon}`} className="Telefon_link margin-right" title='mahmsdfadsf' >
+                                    <a href={`tel:${item.telefon}`} className="Telefon_link margin-right" title='mahmsdfadsf' >
                                         <MyImage
                                             image={Calling}
                                             width='30px'

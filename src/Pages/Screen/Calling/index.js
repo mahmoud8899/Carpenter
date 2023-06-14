@@ -16,7 +16,7 @@ export default function TheCalling() {
                 <span className="TEXT__">إتصل الآن</span>
                 <div className='devCling cursor '>
 
-                    <a href={`tel:+${TelefonNumber.telefon}`} className="Telefon_link" >
+                    <a href={`tel:${TelefonNumber.telefon}`} className="Telefon_link" >
                         <MyImage
                             image={Caling}
                             width='30px'
