@@ -17,14 +17,14 @@ export default function Render() {
   <!DOCTYPE html>
 <html lang="ar" class="ar">
 <head>
-<title>نجار في الرياض</title>  
+<title>نجار خشبي | نجار موبيليا</title>  
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">   
 <meta property="og:image" content=${Najar}  />
 <meta property="og:image:url"  content=${Najar}  />
 <meta property="twitter:image" content=${Najar}  />
-<meta property="og:title" content='نجار الرياض' />
+<meta property="og:title" content='نجار خشبي | نجار موبيليا' />
       <meta property="og:image" content=${Najar}/>
       <meta
         property="og:url"
@@ -39,7 +39,7 @@ export default function Render() {
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image:alt" content=${Najar} />
-      <meta name="twitter:site" content='نجار' />
+      <meta name="twitter:site" content='نجار خشبي | نجار موبيليا' />
       <meta property='og:type' content='https://www.najarv.com/' />
       <meta name="google-site-verification" content="nudTrOck7CCX6fQdknp6WZMOE27dUN_w89Dm5zcmhFM" />
       <link rel="icon" href=${Log} />
@@ -48,6 +48,16 @@ export default function Render() {
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
     <link rel="canonical" href="https://www.najarv.com/" />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C92TSYFQ6Z">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C92TSYFQ6Z');
+</script>
 </head>
 <body>
     <div id="Mahmoud-Almadhoun+467098520">
