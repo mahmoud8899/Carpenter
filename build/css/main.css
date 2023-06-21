@@ -15,6 +15,19 @@
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.308);
   }
+
+  h1, h2,h3 {
+    color: tomato;
+    font-family: Font_Title
+}
+  @font-face {
+    font-family: Font_Title;
+    src: url(../a6895f8295995503f6b8.ttf);
+  }
+  @font-face {
+    font-family: font_text;
+    src: url(../4594b40b8125b447b4b7.ttf);
+  }
   
   .button__::before {
     content: '';
@@ -46,7 +59,7 @@
   }
   
 html {
-    font-family: sans-serif;
+    font-family: font_text;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -144,15 +157,12 @@ html {
 .width100__{
     width: 100%;
 }
-h1, h2,h3 {
-    color: tomato;
-    font-family: 'Tajawal', sans-serif;
-}
+
 .text-align {
     text-align: center;
 }
 .font-size{
-    font-size: 17px;
+    font-size: 18px;
     opacity: 0.7;
 }
 .option {

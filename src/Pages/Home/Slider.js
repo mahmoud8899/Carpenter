@@ -29,7 +29,6 @@ export default function FirstSlider() {
                             </a>
 
 
-                            <a href={`tel:${HomeSlider.telefon}`} className="Telefon_link margin-right" title={HomeSlider.title2} >
                                 <MyImage
                                     image={Calling}
                                     width='30px'
@@ -37,10 +36,11 @@ export default function FirstSlider() {
                                     // className='ImageSlider'
                                     alt={HomeSlider.title2}
                                     title={HomeSlider.title3}
+                                    key='7'
                                 />
 
 
-                            </a>
+                            
 
 
 
@@ -58,6 +58,7 @@ export default function FirstSlider() {
                     className='ImageSlider'
                     alt={HomeSlider.title}
                     title={HomeSlider.titleOnther}
+                    key='8'
                 />
             </div>
 

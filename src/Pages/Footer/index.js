@@ -26,7 +26,7 @@ export default function TheFooter() {
             link: 'https://www.instagram.com/atefsmair1994/',
         },
         {
-            _id: 2,
+            _id: 3,
             image: whatapp,
             name: 'whatapp',
             link: 'https://wa.me/+966568970473',
@@ -56,23 +56,24 @@ export default function TheFooter() {
                 <h2 className='firstClass'>تستطيع متابعة حساباتنا</h2>
 
                 <div className='flex align-items'>
-                    {FooterLinke?.map((item, index) => (
-                        <div className='margin-leftOne  cursor'>
+                     {FooterLinke?.map((item) => (
+                        <div className='margin-leftOne  cursor' key={item?._id}>
 
-                            <a href={item.link} title='facbook page' target="_blank" key={index} >
+                            <a href={item.link} title={item.name} target="_blank" text={item.name} _id={item.name}>
                                 <MyImage
                                     image={item.image}
                                     className='border-radius cursor '
-                                    alt={item.name}
+                                    alt={item?.name}
                                     width='40px'
                                     height='40px'
-                                    title="facebook"
+                                    title={item?.name}
+                                   
 
                                 />
                             </a>
 
                         </div>
-                    ))}
+                    ))} 
 
 
 

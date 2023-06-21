@@ -21,11 +21,11 @@ export default function TheMpas() {
             <div className=''>
                 <MyImage
                     image={TheMpasOne}
-
                     alt='the map'
                     width='50px'
                     height='50px'
                     title='the map'
+                    key='6'
 
                 />
 
@@ -75,8 +75,8 @@ export default function TheMpas() {
 
 
 
-                    {ArrayCalling.map((item, index) => (
-                        <div key={index} >
+                     {ArrayCalling.map((item) => (
+                        <div key={item?._id} >
                             <h2 className='margin-top '>{item.title}</h2>
 
                             <div className='flex flex-column'>
@@ -96,6 +96,7 @@ export default function TheMpas() {
                                             // className='ImageSlider'
                                             alt={item.telefon}
                                             title={item.telefon}
+                                            key={item?._id}
                                         />
 
 
@@ -106,7 +107,7 @@ export default function TheMpas() {
                                 </div>
                             </div>
                         </div>
-                    ))}
+                    ))} 
                 </div>
 
 

@@ -50,13 +50,13 @@ export default function NavBar() {
                             {TelefonNumber.title}
                         </p>
                         <p className='font-size margin-top option cursor'>
-                            <a href={`tel:${TelefonNumber.telefon}`} className="Telefon_link" >
+                            <a href={`tel:${TelefonNumber.telefon}`} className="Telefon_link" title='نجار تركيب اثاث ايكيا' >
                                 {TelefonNumber.telefon}
                             </a>
                         </p>
 
                     </div>
-                    <a href={`tel:${TelefonNumber.telefon}`} className="Telefon_link" >
+                    <a href={`tel:${TelefonNumber.telefon}`} className="Telefon_link" title='نجار اثاث' >
 
                         <MyImage
                             image={CallIcons}
@@ -64,6 +64,7 @@ export default function NavBar() {
                             alt='the calling'
                             width='40px'
                             height='40px'
+                            key='3'
 
                         />
                     </a>
@@ -83,6 +84,7 @@ export default function NavBar() {
                         alt='the calling'
                         width='40px'
                         height='40px'
+                        key='5'
 
                     />
 

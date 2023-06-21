@@ -95,20 +95,21 @@ export default function LastWorking() {
                 </div>
 
 
-                {LastWork?.map((item, index) => (
-                    <div className='width50 padding__ margin-top' key={index}>
+                {LastWork?.map((item) => (
+                    <div className='width50 padding__ margin-top' key={item?._id}>
                         <MyImage
                             image={item.image}
                             className='border-radius cursor ImageSevies'
                             alt={item.Title}
                             width='100%'
                             title={item.Title}
+                           
                         />
 
 
 
                     </div>
-                ))}
+                ))} 
             </div>
 
 

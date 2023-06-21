@@ -32,8 +32,8 @@ export default function Services() {
 
                     <div className='flex space-between flex-wrap '>
 
-                        {Serives?.map((item, index) => (
-                            <div className='width50 padding__ margin-top' key={index}>
+                         {Serives?.map((item) => (
+                            <div className='width50 padding__ margin-top' key={item?._id}>
 
                                 <MyImage
                                     image={item.image}
@@ -41,7 +41,7 @@ export default function Services() {
                                     alt={item.title}
                                     title={item.title}
                                     width='100%'
-
+                                    
                                 />
 
 
@@ -71,7 +71,7 @@ export default function Services() {
 
                                 </div>
                             </div>
-                        ))}
+                        ))} 
 
 
                     </div>
@@ -104,6 +104,7 @@ export default function Services() {
                             alt={Servies2.Title}
                             width='100%'
                             title={Servies2.Title}
+                            key='9'
                         />
 
                     </div>

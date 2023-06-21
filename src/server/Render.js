@@ -43,21 +43,21 @@ export default function Render() {
       <meta property='og:type' content='https://www.najarv.com/' />
       <meta name="google-site-verification" content="nudTrOck7CCX6fQdknp6WZMOE27dUN_w89Dm5zcmhFM" />
       <link rel="icon" href=${Log} />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@900&display=swap" rel="stylesheet">
+
+
+    
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
     <link rel="canonical" href="https://www.najarv.com/" />
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C92TSYFQ6Z">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-C92TSYFQ6Z');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11228036732"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'AW-11228036732');
+    </script>
+    
 </head>
 <body>
     <div id="Mahmoud-Almadhoun+467098520">

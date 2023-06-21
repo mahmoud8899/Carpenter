@@ -16,12 +16,13 @@ export default function TheCalling() {
                 <span className="TEXT__">إتصل الآن</span>
                 <div className='devCling cursor '>
 
-                    <a href={`tel:${TelefonNumber.telefon}`} className="Telefon_link" >
+                    <a href={`tel:${TelefonNumber.telefon}`} className="Telefon_link" title="رقم نجار خشبي" >
                         <MyImage
                             image={Caling}
                             width='30px'
                             height='30px'
-                            alt='calling'
+                            alt='نجار خشبي | نجار موبيليا'
+                            key='1'
                         />
                     </a>
                 </div>
@@ -32,12 +33,13 @@ export default function TheCalling() {
                 <span className="TEXT__ background-wahtapp">واتساب</span>
                 <div className='devCling cursor '>
 
-                    <a href="https://wa.me/+966568970473" className="Telefon_link" target="_blank" >
+                    <a href="https://wa.me/+966568970473" title="نجار في الرياض" className="Telefon_link" target="_blank" >
                         <MyImage
                             image={WhatApp}
                             width='30px'
                             height='30px'
-                            alt='whatapp'
+                            alt='نجار خشبي في الرياض'
+                            key='2'
                         />
                     </a>
                 </div>

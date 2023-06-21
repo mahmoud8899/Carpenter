@@ -3,7 +3,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
 const MyImage = (props) => {
-    const { image, alt ,className, key,width ,height ,title } = props
+    const { image, alt ,className, width ,height ,title } = props
     return (
         <LazyLoadImage
             alt={alt}
@@ -12,7 +12,6 @@ const MyImage = (props) => {
             effect="blur"
             width={width}
             height={height ? height : "yyy"}
-            key={key}
             title={title ? title : 'loading'}
             loading="lazy"
            
