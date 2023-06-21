@@ -38,6 +38,9 @@ export default function NavBar() {
 
 
     return (
+        
+
+   
         <div className='padding__ background'>
 
             <div className='flex flex-wrap flex-center margin-topone'>
@@ -111,5 +114,6 @@ export default function NavBar() {
 
 
         </div>
+       
     )
 }

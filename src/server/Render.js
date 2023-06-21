@@ -49,34 +49,34 @@ export default function Render() {
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
     <link rel="canonical" href="https://www.najarv.com/" />
 
+
+
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11183115233"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-11183115233');
-</script>
-
-
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11228036732"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'AW-11228036732');
+    </script>
     <!-- Event snippet for call ext conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-11228036732/auFNCOPeja8YEPz8-Okp',
+          'event_callback': callback
+      });
+      return false;
     }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-11183115233/-gynCKqkka8YEOGXw9Qp',
-      'event_callback': callback
-  });
-  return false;
-}
-</script>
-
+    </script>
+    
     
 </head>
 <body>
