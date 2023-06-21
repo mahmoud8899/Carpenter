@@ -49,6 +49,17 @@ export default function Render() {
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
     <link rel="canonical" href="https://www.najarv.com/" />
 
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11183115233"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11183115233');
+</script>
+
+
     <!-- Event snippet for call ext conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
 <script>
