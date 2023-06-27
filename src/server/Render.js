@@ -35,12 +35,35 @@ ${helmet.meta.toString()}
 ${helmet.link.toString()}
       <meta name="theme-color" content="#d8bc64" />
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11228036732"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11228036732');
+</script>
+
+
+
+
 </head>
 <body ${helmet.bodyAttributes.toString()}>
     <div id="Mahmoud-Almadhoun+467098520">
          ${appString}
     </div>
     <script src="/client/bundle.js" defer ></script>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11228036732"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11228036732');
+</script>
+
     
 </body>
 </html>

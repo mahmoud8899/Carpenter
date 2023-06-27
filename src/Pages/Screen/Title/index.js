@@ -41,6 +41,11 @@ const MetaDecorator = ({ title, description, imageUrl, imageAlt }) => {
       <link rel="canonical" href={metaDecorator.hostname + condation} />
       <meta  name='robots'  content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
+
+
+
+
+
     </Helmet>
   )
 }
