@@ -21,11 +21,11 @@ function TheServices() {
             <div className='flex flex-wrap flex-center margin-topone paddingTo width80 margin '>
 
 
-                <h2 className='firstClass font-weight margin-left cursor margin-bottom__ cursor'>{TheName}</h2>
+                <h1 className='firstClass font-weight margin-left cursor margin-bottom__ cursor'>نجار بالرياض | نجار خشب بالرياض</h1>
 
                 {PageServices?.map((item, index) => (
                     <div key={index} className='margin-topone cursor '>
-                        <h1 >{item?.name}</h1>
+                        <h2 >{item?.name}</h2>
                         <div className='margin-topOneee'>
                             <p className='font-size option'>{item?.des}</p>
                         </div>
