@@ -20,11 +20,11 @@ const App = ({ route }) => {
     return (
         <Fragment>
 
-            <React.Suspense >
+            <React.Suspense fallback={<TheLoading   />} >
                 <TheCalling />
             </React.Suspense>
 
-            <React.Suspense >
+            <React.Suspense fallback={<TheLoading   />}  >
                 <NavBar />
             </React.Suspense>
 
@@ -32,7 +32,7 @@ const App = ({ route }) => {
             <Outlet />
 
 
-            <React.Suspense >
+            <React.Suspense  fallback={<TheLoading   />} >
                 <TheFooter />
             </React.Suspense>
 

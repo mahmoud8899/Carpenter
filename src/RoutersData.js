@@ -12,32 +12,47 @@ export const RoutersArray = [
         children: [
 
             {
-                element: <React.Suspense  fallback={<TheLoading />} >
+                element: <React.Suspense fallback={
+                    <div className='devloading'>
+                        <TheLoading />
+                    </div>
+                } >
                     <Home />
                 </React.Suspense>,
                 path: '/',
 
             },
-            
+
             {
-                element: <React.Suspense fallback={<TheLoading />} >
+                element: <React.Suspense 
+                fallback={
+                    <div className='devloading'>
+                        <TheLoading />
+                    </div>
+                }
+                 >
                     <TheServices />
                 </React.Suspense>,
                 path: '/نجار-بالرياض/',
 
             },
             {
-                element: <React.Suspense fallback={<TheLoading />} >
-                  <Home   />
+                element: <React.Suspense fallback={
+                    <div className='devloading'>
+                        <TheLoading />
+                    </div>
+                }
+                 >
+                    <Home />
                 </React.Suspense>,
                 path: '*',
 
             },
-           
 
 
 
-         
+
+
         ]
     }
 ]
