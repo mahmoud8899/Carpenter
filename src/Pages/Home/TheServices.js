@@ -25,7 +25,7 @@ function TheServices() {
 
                 {PageServices?.map((item, index) => (
                     <div key={index} className='margin-topone cursor '>
-                        <h2 >{item?.name}</h2>
+                        <h1 >{item?.name}</h1>
                         <div className='margin-topOneee'>
                             <p className='font-size option'>{item?.des}</p>
                         </div>
