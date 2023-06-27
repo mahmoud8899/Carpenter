@@ -1,9 +1,4 @@
-
 import React from "react"
-
-
-
-
 export default function TheButton(props) {
 
     const { TheName, LinkCall } = props

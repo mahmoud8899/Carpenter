@@ -1,34 +1,51 @@
-import React from 'react'
-import NavBar from './Pages/NavBar'
-import './Css/styles.css'
-import TheCalling from './Pages/Screen/Calling'
-import TheLoading from './Pages/Screen/TheLoading'
-const Home = React.lazy(() => import('./Pages/Home'))
+import React, { Fragment } from 'react'
+const NavBar = React.lazy(() => import('./Pages/NavBar'))
+const TheCalling = React.lazy(() => import('./Pages/Screen/Calling'))
 const TheFooter = React.lazy(() => import('./Pages/Footer'))
+import TheLoading from './Pages/Screen/TheLoading'
+import { Outlet } from 'react-router-dom'
+import PropTypes from 'prop-types'
+import './Css/styles.css'
 
 
 
+const App = ({ route }) => {
 
-export default function App() {
 
+    // <React.Suspense fallback={<TheLoading  />}>
+    // <Home />
+    // </React.Suspense>
 
 
     return (
-        <div>
-           
-           <TheCalling   />
-            <NavBar />
-            <React.Suspense fallback={<TheLoading  />}>
-            <Home />
+        <Fragment>
+
+            <React.Suspense >
+                <TheCalling />
             </React.Suspense>
 
-            <React.Suspense fallback={<TheLoading  />}>
-            <TheFooter />
+            <React.Suspense >
+                <NavBar />
             </React.Suspense>
-    
-    
 
 
-        </div>
+            <Outlet />
+
+
+            <React.Suspense >
+                <TheFooter />
+            </React.Suspense>
+
+        </Fragment>
     )
 }
+
+App.propTypes = {
+    route: PropTypes.objectOf(PropTypes.any),
+};
+
+App.defaultProps = {
+    route: null,
+};
+
+export default { element: App };

@@ -1,6 +1,14 @@
 import { createRoot } from 'react-dom/client';
 import React from 'react'
-import App from './App';
+import ScrollToTop from './ScrollTo'
+import Routes from './Router'
+import { BrowserRouter } from 'react-router-dom';
 import 'react-lazy-load-image-component/src/effects/blur.css';
+
 const root = createRoot(document.getElementById('Mahmoud-Almadhoun+467098520'));
-root.render(<App />);
+root.render(
+    <BrowserRouter>
+        <ScrollToTop />
+        <Routes />
+    </BrowserRouter>
+);

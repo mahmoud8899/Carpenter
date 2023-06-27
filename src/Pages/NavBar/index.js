@@ -2,8 +2,7 @@ import React, { useState } from 'react'
 import CallIcons from '../../Icons/call.png'
 import MapsIcons from '../../Icons/map.png'
 import ListNavBar from './ListNavBar'
-import { ListNavBarTop, TheName } from './Response'
-import { MyAddress, TelefonNumber } from '../data/response'
+import { MyAddress, TelefonNumber, TheName } from '../data/response'
 import MyImage from '../Screen/Images/index'
 
 

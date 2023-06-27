@@ -1,11 +1,10 @@
 import React from 'react'
-import { TheName } from '../NavBar/Response'
 import ListNavBar from '../NavBar/ListNavBar'
 import facebook from '../../Icons/facebook.png'
-
 import whatapp from '../../Icons/whatapp.png'
 import instagram from '../../Icons/instagram.png'
 import MyImage from '../Screen/Images/index'
+import { TheName } from '../data/response'
 
 
 export default function TheFooter() {
