@@ -39,7 +39,7 @@ const MetaDecorator = ({ title, description, imageUrl, imageAlt }) => {
       <meta property='og:type' content='https://www.najarv.com' />
       <meta name="keywords" content="نجار تفصيل غرف نوم، نجار تصنيع أثاث، نجار خشب طاولات، نجار فك وتركيب، نجار تصنيع أبواب، تصميم وتنفيذ غرف نوم، تصنيع أبواب ونوافذ مخصصة" />
       <link rel="canonical" href={metaDecorator.hostname + condation} />
-      <meta  name='robots'  content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+      
 
 
 

@@ -2,8 +2,6 @@ import { AboutUs } from "../data/response";
 import React from 'react'
 
 
-
-
 export default function TheAboutUs() {
 
 

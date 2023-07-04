@@ -3,7 +3,7 @@ import Services2 from '../../Icons/services/ica.jpeg'
 import trkip from '../../Icons/services/trkip.jpeg'
 import LastImage from '../../Icons/lastworking/1.jpeg'
 import Title__ from '../../Icons/rr.png'
-import React from 'react';
+
 
 
 // the name of website
@@ -37,12 +37,12 @@ export const ListNavBarTop = [
     {
         _id : 3,
         name : 'عنا',
-        link : '/#about'
+        link : '/نجار-أثاث-بالرياض/'
     },
     {
         _id : 4,
         name :'تواصل معنا',
-        link : '/#calling'
+        link : '/نجار-تفصيل-بالرياض/'
     },
 ]
 

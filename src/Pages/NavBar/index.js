@@ -95,7 +95,10 @@ export default function NavBar() {
             </div>
 
             <nav className='flex flex-row align-items flex-wrap margin-top2'>
-                <h2 className='firstClass font-weight margin-left cursor'> {TheName}</h2>
+               
+               <a href='/' className='Telefon_link'>
+               <h2 className='firstClass font-weight margin-left cursor'> {TheName}</h2>
+               </a>
 
                 <div onClick={Change} className='widthbar flex  flex-row align-items' >
                     <div className={css.menubar}  >
